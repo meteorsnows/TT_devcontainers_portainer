@@ -2,7 +2,7 @@
     "dockerComposeFile": "docker-compose.yaml",
     "service": "portainer",
     "remoteUser": "root",
-    "forwardPorts": [9000],
+    "forwardPorts": [9443,9000,8000],
     "shutdownAction": "stopCompose",
     "customizations": {
         "vscode": {
